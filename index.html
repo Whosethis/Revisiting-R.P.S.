@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<title>Rock Paper Scissors with UI</title>
+<link rel="stylesheet" href="style.css"/>
+<head>
+</head>
+<body>
+    <div class="score">
+        <h1 class="ties">Ties: 0</h1>
+    </div>
+    <div class="winner">
+        <h1 class="winner"></h1>
+        <button class="reset" onclick="resetGame()">Play Again?</button>
+    </div>
+    <div class="playerSelection">
+        <h3 class="playerChoice"></h3>
+        <h3 class="playerScore">Score: 0</h3>
+        <button class="selection" data-selection="rock">Rock</button>
+        <button class="selection" data-selection="paper">Paper</button>
+        <button class="selection" data-selection="Scissors">Scissors</button>
+    </div>
+    <div class="computerSelection">
+        <h3 class="computerChoice"></h3>
+        <h3 class="computerScore">Score: 0</h3>
+        <button>Rock</button>
+        <button>Paper</button>
+        <button>Scissors</button>
+    </div>
+</body>
+<script src="main.js"></script>
